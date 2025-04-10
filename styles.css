@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #607d8b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: #fff;
+}
+
+.dog-photo {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.info {
+    flex: 1;
+    min-width: 250px;
+}
+
+.contact {
+    padding: 20px;
+    background: #e0e0e0;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #ccc;
+}
